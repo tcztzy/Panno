@@ -1,0 +1,18 @@
+{
+    "input_fasta": "/data/user_home/2023122004/Panno/data/TAIR/genome/Arabidopsis_thaliana.TAIR10.dna.chromosome.1.fa",
+    "output_gff": "output/TAIR_chr1.gff3",
+    "model_path": "model/Panno.pth",
+    
+    "threshold": 0.8,
+    "window_size": 10240,
+    "stride": 10240,
+    "batch_size": 4,
+    "device": "cuda",
+    
+    "vocab_size": 5,
+    "base_filters": 128,
+    "input_seq_len": 20480,
+    
+    "min_orf_len": 30,
+    "max_orf_len": 303
+  }

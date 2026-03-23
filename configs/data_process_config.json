@@ -1,0 +1,19 @@
+{
+    "base_output_dir": "data/tensor_data",
+    "combined_dir_name": "MultiSpecies",
+    "window_size": 10240,
+    "stride": 5120,
+    "max_n_ratio": 0.1,
+    "negative_keep_rate": 1.0,
+    "downsample_val": false,
+    "merge_datasets": false,
+    "species_catalog": {
+      "Arabidopsis": {
+        "fasta": "data/TAIR/genome/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa",
+        "gff_list": [
+            "data/TAIR/gff3/Arabidopsis_thaliana.TAIR10.62.gff3",  
+            "data/TAIR/TAIR.sps.gff3" 
+        ]
+    }
+  }
+}
